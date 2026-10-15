@@ -1,0 +1,38 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cart {
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5em;
+  border: 5px solid #cccccc;
+  overflow: auto;
+  display: flex;
+
+}
+
+.profile {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  padding: 1em;
+  float: left;
+  width: 50%;
+  height: fit-content;
+}
+
+.konten {
+  padding: 1em;
+  margin-left: 160px;
+  text-align: justify;
+}
+
+img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 100%;
+}

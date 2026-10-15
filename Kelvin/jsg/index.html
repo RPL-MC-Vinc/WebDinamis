@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelvin Firdaus Kennedy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="game">
+    <h1>Tebak Angka</h1>
+    <p>Tebak angka rahasia dari 1 sampai 10.</p>
+    <form id="guess-form" novalidate>
+      <label for="guess">Masukkan tebakan (1–10):</label>
+      <input id="guess" name="guess" type="number" min="1" max="10" step="1" required>
+      <button type="submit">Konfirmasi Tebakan</button>
+    </form>
+    <p id="message" class="message" role="status" aria-live="polite">Masukkan angka untuk mulai bermain.</p>
+  </main>
+</body>
+</html>

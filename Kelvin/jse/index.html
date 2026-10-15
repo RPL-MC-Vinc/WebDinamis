@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin Firdaus Kennedy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="kartu">
+        <h1>Cek Diskon Belanja</h1>
+        <label for="totalBelanja">Total nominal belanja</label>
+        <div class="kolom-input">
+            <span>Rp</span>
+            <input
+                type="number"
+                id="totalBelanja"
+                min="0"
+                step="1"
+                placeholder="Contoh: 100000"
+            >
+        </div>
+        <button type="button" id="tombolCek">Cek Diskon</button>
+        <div id="hasil" aria-live="polite"></div>
+    </main>
+    <script src="scrip.js"></script>
+</body>
+</html>
